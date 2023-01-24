@@ -19,7 +19,7 @@ A minimalist Loadingscreen using React TypeScript and Mantine UI
 ## Installation
 
 - Download zip file from the release page, not the source code
-- You can change the image in `dolu_loadingscreen/web/assets/img folder
+- You can change the image in `dolu_loadingscreen/web/assets/img` folder
 - Add this to your server.cfg:
 ```yaml
     setr dolu_loadingscreen:title "Your Server Name"
