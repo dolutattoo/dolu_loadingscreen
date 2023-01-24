@@ -2,7 +2,7 @@ fx_version 'cerulean'
 games 'gta5'
 
 name         'dolu_tool'
-version      '0.0.1'
+version      '1.1.0'
 description  'A minimalist Loadingscreen using React TypeScript and Mantine UI'
 author       'Dolu'
 repository	 'https://github.com/dolutattoo/dolu_loadinscreen'
