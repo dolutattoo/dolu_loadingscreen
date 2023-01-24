@@ -23,5 +23,6 @@ A minimalist Loadingscreen using React TypeScript and Mantine UI
 - Add this to your server.cfg:
 ```yaml
     setr dolu_loadingscreen:title "Your Server Name"
+    
     ensure dolu_loadingscreen
 ```
