@@ -66,7 +66,7 @@ jobs:
         run: |
           mkdir -p ./temp/dolu_loadingscreen
           mkdir -p ./temp/dolu_loadingscreen/web/assets
-          cp ./{LICENSE,README.md,fxmanifest.lua} ./temp/dolu_loadingscreen
+          cp ./{LICENSE,README.md,fxmanifest.lua,config.json} ./temp/dolu_loadingscreen
           cp -r ./web/build ./temp/dolu_loadingscreen/web/
           cp -r ./web/assets/img ./temp/dolu_loadingscreen/web/assets
           cd ./temp && zip -r ../dolu_loadingscreen.zip ./dolu_loadingscreen

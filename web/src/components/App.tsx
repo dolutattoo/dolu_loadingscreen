@@ -1,5 +1,6 @@
 import React from 'react'
 import { Center, Title, Image, Loader, Box } from '@mantine/core'
+import Config from '../../../config.json'
 
 const App: React.FC = () => (
   <div style={{
@@ -25,14 +26,13 @@ const App: React.FC = () => (
           height='256px'
           alt='1'
           src='nui://dolu_loadingscreen/web/assets/img/logo.png'
-          // src='/src/web/assets/img/logo.png'
           withPlaceholder={true}
           sx={{ marginTop: '10px', marginLeft: '30px', marginRight: '30px' }}
         />
       </Center>
 
       <Center style={{ paddingTop: '20px' }}>
-        <Title color='dark'>{"Dolu FiveM Server"}</Title>
+        <Title color='dark'>{Config.title}</Title>
       </Center>
 
 
