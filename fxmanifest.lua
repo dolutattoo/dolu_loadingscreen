@@ -1,16 +1,16 @@
-fx_version "cerulean"
-lua54 'yes'
-games { "gta5", "rdr3" }
+fx_version 'cerulean'
+games 'gta5'
 
-description "FiveM Loadingscreen using React TypeScript and Lua"
-author "Dolu"
-version '0.0.1'
-repository 'https://github.com/dolutattoo/dolu_loadinscreen'
+name         'dolu_tool'
+version      '0.0.1'
+description  'A minimalist Loadingscreen using React TypeScript '
+author       'Dolu'
+repository	 'https://github.com/dolutattoo/dolu_loadinscreen'
+
+loadscreen 'web/build/index.html'
 
 files {
 	'web/build/index.html',
 	'web/build/**/*',
-	'web/assets/img/*'
+	'web/assets/img/logo.png'
 }
-
-loadscreen 'web/build/index.html'
